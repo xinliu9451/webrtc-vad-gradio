@@ -8,6 +8,7 @@ This project uses the python library Gradio to implement the online vocal detect
 4. The model cuts the audio into small segments, each of which is the size of the length of the audio to be detected, and then detects each segment, and finally splices the output of the audio with and without human voices, respectively.
 
 # gradio-generated interface display
+![image](https://github.com/xinliu9451/webrtc-vad-gradio/blob/main/image/gradio.png)
 
 # reference
 https://github.com/wiseman/py-webrtcvad
